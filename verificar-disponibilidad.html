@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificar Disponibilidad - SOLARCHARGE</title>
+</head>
+<body>
+    <header>
+        <!-- Puedes personalizar el encabezado si es necesario -->
+        <h1>Verificar Disponibilidad</h1>
+        <nav>
+            <a href="index.html">Inicio</a> <!-- Enlace a la página principal -->
+            <!-- Puedes agregar más enlaces según sea necesario -->
+        </nav>
+    </header>
+
+    <!-- Contenido específico de la página "Verificar Disponibilidad" -->
+
+    <footer>
+        <!-- Puedes personalizar el pie de página si es necesario -->
+    </footer>
+    <!-- Dentro del cuerpo de tu página "Verificar Disponibilidad" -->
+   <form action="procesar-verificacion.php" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" required>
+
+    <label for="correo">Correo Electrónico:</label>
+    <input type="email" id="correo" name="correo" required>
+
+    <label for="telefono">Número de Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+
+    <input type="submit" value="Verificar Disponibilidad">
+    </form>
+    <section>
+        <h2>Proceso de Verificación</h2>
+        <p>Después de completar el formulario, nuestro equipo revisará la información proporcionada. El proceso de verificación suele tomar 30 seg. Te contactaremos a través del correo electrónico o número de teléfono proporcionado.</p>
+    </section>
+    <section>
+        <h2>Tecnología Utilizada</h2>
+        <p>En SOLARCHARGE, utilizamos tecnologías avanzadas para garantizar una verificación rápida y precisa de la disponibilidad. Nuestro sistema automatizado procesa la información proporcionada y te ofrece resultados en tiempo real.</p>
+    </section>
+    <!-- Dentro del cuerpo de tu página "Verificar Disponibilidad" -->
+<section>
+    <h2>Preguntas Frecuentes</h2>
+    <dl>
+        <dt>¿Cuánto tiempo tarda el proceso de verificación?</dt>
+        <dd>El tiempo de verificación puede variar, pero generalmente toma 30 Seg.</dd>
+
+        <dt>¿Cómo recibiré los resultados?</dt>
+        <dd>Te contactaremos a través del correo electrónico o número de teléfono que proporcionaste en el formulario.</dd>
+
+        <!-- Agrega más preguntas y respuestas según sea necesario -->
+    </dl>
+</section>
+<section>
+    <h2>PQRS</h2>
+    <dt>Hemos abierto este espacio para que puedan libremente expresar sus inquietudes, que serán atendidas lo antes posible.</dt>
+</section>
+<style>
+    /* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000
+    
+}
+
+header {
+    background-color: #ffd700; /* Color de fondo del encabezado */
+    color: #000; /* Color del texto en el encabezado */
+    padding: 20px;
+    text-align: center;
+    transition: color 0.3s;
+
+}
+
+nav a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #fff; /* Cambia el color al pasar el mouse sobre el enlace */
+}
+
+/* Estilos específicos para la página "Verificar Disponibilidad" */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffd700;
+    border-radius: 24px 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 24px 60px;
+}
+
+form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Estilos para otras secciones según sea necesario */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffd700;
+    border-radius: 24px 60px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Agrega más estilos según las secciones y elementos de tu página */
+
+</style>
+
+
+</body>
+</html>
